@@ -8,10 +8,10 @@ class CustomBookImage extends StatelessWidget {
   Widget build(BuildContext context) {
     // Used to specify the aspect ratio of the child widget.
     return AspectRatio(
-      aspectRatio: 2.7 / 4,
+      aspectRatio: 2.6 / 4,
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.red,
+          // color: Colors.red,
             borderRadius: BorderRadius.circular(16),
             image: const DecorationImage(
               image: AssetImage(AssetsData.testImage),
