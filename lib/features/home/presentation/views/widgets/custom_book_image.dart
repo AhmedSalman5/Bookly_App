@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../../../../core/utils/assets.dart';
 
-class CustomListViewItem extends StatelessWidget {
-  const CustomListViewItem({super.key});
+class CustomBookImage extends StatelessWidget {
+  const CustomBookImage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,6 +11,7 @@ class CustomListViewItem extends StatelessWidget {
       aspectRatio: 2.7 / 4,
       child: Container(
         decoration: BoxDecoration(
+          color: Colors.red,
             borderRadius: BorderRadius.circular(16),
             image: const DecorationImage(
               image: AssetImage(AssetsData.testImage),
