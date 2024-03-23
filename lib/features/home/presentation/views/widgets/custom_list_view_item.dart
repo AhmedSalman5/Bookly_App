@@ -6,6 +6,7 @@ class CustomListViewItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Used to specify the aspect ratio of the child widget.
     return AspectRatio(
       aspectRatio: 2.7 / 4,
       child: Container(
